@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <BeatSaberDir>C:\Users\softy\OneDrive\Documents\BSLegacyLauncher\BSLegacyLauncher\Installed Versions\Beat Saber 1.29.0</BeatSaberDir>
+    <!-- Path to your Beat Saber install, only set if different from BeatSaberDir. -->
+    <!--<GameDirectory></GameDirectory>-->
+  </PropertyGroup>
+</Project>

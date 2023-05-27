@@ -1,0 +1,21 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'>
+	<tab-selector tab-tag='menus-tab'/>
+	<tab tags='menus-tab' tab-name='Burn Mark Colors'>
+		<settings-container child-control-width='true' child-expand-width='true'>
+			<text text='Coloring' font-size='6' font-color='#ffffff'  size-delta-y='15' align='Center'/>
+			<increment-setting value='burncolor_filter' apply-on-change='true' bind-value='true' text='Burn Mark Coloring' integer-only='true' min='0' max='1' formatter='burncolor_formatter' hover-hint='Change your burn mark coloring!' />
+			
+				<color-setting text='Left Saber' min-height='2' value='left-color' apply-on-change='true' bind-value='true' interactable='true'/>
+				<color-setting text='Right Saber' min-height='2' value='right-color' apply-on-change='true' bind-value='true' interactable='true'/>
+		
+		</settings-container>
+	</tab>
+	<tab tags='menus-tab' tab-name='Burn Mark Settings'>
+		<settings-container child-control-width='true' child-expand-width='true'>
+			<text text='Settings' font-size='6' align='Center' size-delta-y='15' />
+			<increment-setting text='Burn Mark Scale' min='0.2' max='3' increment='0.2' value='burn-scale' apply-on-change='true' bind-value='true' integer-only='false'/>
+			<increment-setting text='Burn Mark Lifetime' min='0' max='10' increment='0.5' value='burn-lifetime' apply-on-change='true' bind-value='true' integer-only='false'/>
+			<increment-setting text='Burn Mark Intensity' min='0.2' max='1' increment='0.1' value='burn-opacity' apply-on-change='true' bind-value='true' integer-only='false'/>
+		</settings-container>
+	</tab>
+</bg>

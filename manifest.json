@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "BurnMarkCustomizer",
+  "name": "Burn Mark Customizer",
+  "author": "SoapNoap",
+  "version": "1.0.0",
+  "description": "Allows for full customization of saber burn marks.",
+  "gameVersion": "1.29.1",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "BeatSaberMarkupLanguage": "^1.5.6",
+    "BS Utils": "^1.11.0"
+  }
+}
